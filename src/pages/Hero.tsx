@@ -10,6 +10,7 @@ import { Avatar } from '@mui/material';
 import profileImage from '../assets/profileImage.png';
 
 export default function Hero() {
+    
   return (
     <Box
       id="hero"
