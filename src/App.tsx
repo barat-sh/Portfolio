@@ -13,11 +13,10 @@ function App() {
     <Router>
       <Appbar />
         <Routes>
-          <Route path='/' element={ [<Hero/>, <Technologies/> ]} />
-          <Route path='/resource' element={ <Resource/> } />
+          <Route path='/' element={ [<Hero/>, <Technologies/>, <Footer/> ]} />
+          <Route path='/resource' element={ [<Resource/>, <Footer/> ] } />
           <Route path='/contact' element={ <Contact/> } />
         </Routes>
-      <Footer />
     </Router>
     </>
   )

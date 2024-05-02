@@ -72,7 +72,7 @@ export default function Contact() {
             </Card>
             <Box display={'flex'} justifyContent={'center'} alignItems={'center'}>
                 <Box>
-                    <Typography variant='h6' fontSize={'2.5rem'} fontWeight={600} color={'text.primary'}>
+                    <Typography variant='h6' fontSize={'3rem'} fontWeight={600} color={'text.primary'}>
                         Contact
                     </Typography>
                     <Typography fontWeight={600} color="text.secondary">
